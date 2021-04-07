@@ -1,0 +1,35 @@
+.header-content
+{
+    position: relative;
+    &__container
+    {
+        @extend %container;
+    }
+    &__actions
+    {
+        display: flex;
+
+        justify-content: center;
+        @include sm
+        {
+            flex-direction: column;
+
+            align-items: center;
+        }
+        .btn:first-of-type
+        {
+            @include sm-min
+            {
+                margin-right: $gap;
+            }
+            @include sm
+            {
+                margin-bottom: $gap;
+            }
+        }
+    }
+    &__title
+    {
+        margin: 0 0 53px 0;
+    }
+}

@@ -1,0 +1,12 @@
+.skill-item__title {
+    @include unlist;
+    z-index: 2;
+    margin: 0;
+    letter-spacing: .1em;
+    @include md-min {
+        font-size: 1.25rem;
+    }
+    @include md {
+        font-size: 1.125rem;
+    }
+}

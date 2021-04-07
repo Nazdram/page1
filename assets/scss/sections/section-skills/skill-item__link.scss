@@ -1,0 +1,12 @@
+.skill-item__link
+{
+    display: flex;
+
+    height: 100%;
+    padding: $gap;
+
+    transition: color .5s;
+
+    justify-content: center;
+    align-items: center;
+}

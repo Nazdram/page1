@@ -1,0 +1,28 @@
+.about {
+    min-height: 700px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: $color-gray-light;
+    font-size: 1.125rem;
+    letter-spacing: 0.055em;
+    &__container {
+        @extend %container;
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+    &__content {
+        margin-top: -34px;
+        p:first-of-type {
+            position: relative;
+            margin-top: -5px;
+        }
+        p:last-of-type {
+            margin: 0;
+        }
+    }
+    &__image {
+        display: grid;
+        margin-left: 102px;
+        margin-top: -4px;
+    }
+}
