@@ -914,6 +914,10 @@ a {
   z-index: 1;
 }
 
+.post-item__caption {
+  margin: auto;
+}
+
 @media (min-width: 576px) {
   .btn--primery {
     min-width: 350px;
